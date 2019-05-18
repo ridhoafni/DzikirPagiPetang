@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.dzikirpagipetang.aboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:textColor="@color/colorAbout"
+            android:paddingBottom="23dp"/>
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="126dp"
+            android:src="@drawable/icon_app"
+            android:layout_gravity="center"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi dzikir pagi petang"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textColor="@color/colorSplash"
+            android:paddingBottom="23dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="MUHAMMAD RIDHO\n"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/textView"
+            android:layout_above="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="PROGRAM STUDI D3 MANAJEMEN INFORMATIKA\n JURUSAN ILMU KOMPUTER\nFAKULTAS MATEMATIKA DAN ILMU PENGETAHUAN ALAM\nUNIVERSITAS RIAU
+"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:id="@+id/textView2"
+            android:layout_above="@+id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="36dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="version 1.0"
+            android:textSize="24dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="© 2018 Ridho inc."
+            android:textSize="22dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
